@@ -10,7 +10,8 @@ function getInfo() {
             console.log(data)
 
             let html = `<img src="${data.image}">
-                        <h1>${data.name}</h1>`
+                        <h1>${data.name}</h1>
+                        <h2>${data.status}</h2>`
 
             document.getElementById("charContent").innerHTML = html
         })
